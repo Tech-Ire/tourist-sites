@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+/* navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100% ;
+    justify-content: space-between;
+    padding: 20px;
+    color: red;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+     margin: 0px 30px;
+}    
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/KILIMANJARO.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+     background: #fc036b;
+     border-radius: 30px;
+     color: whitesmoke;
+}
+img{
+    width: 3.5rem;
+    height: 2rem;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+/* events */
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #73739b;
+}
+
+.event.row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 7vmin;
+    color: #73739b;
+    margin: 20px auto ;
+}
+
+p{
+    color: #7c7c7c;
+    padding: 0px 40px;
+}
+
+.events .ctn{
+    margin-top: 100px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.row.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row .col h4{
+    text-align: center;
+} 
+.row.col p{
+    text-align: center;
+    width: 30rem;
+}
+
+.col img{
+    width: 80%;
+    height: 20rem;
+    justify-content: space-between;
+}
+.mobile.menu{
+    margin-top: 0;
+}
+
+/* mobile device */
+@media only screen and (max-width:850px){
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(153, 153, 216);
+        margin-top: -900px;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    }
+}
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/mailchimp-4ct0iDMOjuc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content{
+    color: whitesmoke;
+    width: 60%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content .line{
+    margin-bottom: 50px;
+}
+.explore-content h1{
+    font-size: 8vmin;
+}
+
+.explore-content p{
+    font-size: 20%;
+    color: rgb(224, 215, 215);
+    width: 90%;
+}
+.explore-content .ctn{
+    font-size: 1rem;
+    padding: 8px 20px;
+     background: #fc036b;
+     border-radius: 30px;
+     color: whitesmoke;
+     margin-left: 35rem ; 
+      font-size: 1rem;
+    padding: 8px 20px;
+     background: #fc036b;
+     border-radius: 30px;
+     margin-left: 35rem ;
+}
+
+.tours .row .col{
+    width: 50%;
+}
+.tours .row .col .line{
+    margin-left: -1px;
+}
+
+.tours .image-gallery{ 
+    display: grid;
+    /* flex-wrap: no-wrap; */
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.image-gallery img{
+      width: 250px;
+      margin: 10px;
+}
+
+.tours .col h1{
+    font-size: 8vmin;
+}
+.tours .row.col p{
+    width: 90%;
+}
