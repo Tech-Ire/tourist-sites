@@ -43,7 +43,7 @@
                 <img src="./images/natureislife.jpg" alt="">
                 <h4>Everest Camp Trek</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae voluptate optio et, doloremque porro
-                    adipisci?</p>
+                    adipisci?</p><br>
                 <a href="#" class="ctn">learn more</a>
             </div>
 
@@ -52,7 +52,7 @@
                 <img src="./images/landscaped.jpg" alt="">
                 <h4>Walking holiday</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae voluptate optio et, doloremque porro
-                    adipisci?</p>
+                    adipisci?</p><br>
                 <a href="#" class="ctn">learn more</a>
             </div>
         </div>
@@ -67,26 +67,26 @@
                         perferendis optio tempore cumque? Laboriosam fugit soluta sed beatae adipisci. Libero atque
                         eaque expedita in porro voluptatem! ipsum dolor sit amet consectetur adipisicing elit. Nisi ab,
                         velit ullam quod libero quasi autem
-                        qui esse beatae odit repellendus voluptatibus! Qui, facere nihil.</p>
+                        qui esse beatae odit repellendus voluptatibus! Qui, facere nihil.
+                    </p><br>
                     <a href="#" class="ctn">learn more</a>
         </div>
+
     </section>
 
     <section class="tours">
         <div class="row">
-            <div class="col">
+            <div class="col tours-col">
                 <h1>UPCOMING TOURS & DESTINATION</h1>
                 <div class="line"></div>
                 <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae natus impedit, nulla aliquid
                     cupiditate qui officiis ratione aut quisquam aperiam ut dicta, et dolorem obcaecati doloribus culpa
-                    sed aliquam necessitatibus?</P>
+                    sed aliquam necessitatibus?</P><br>
                 <a href="#" class="ctn">Learn More</a>
             </div>
             <div class="col image-col">
-
                 <div class="image-gallery">
                     <img src="./images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="">
-                    
                     <img src="./images/landscaped.jpg" alt="">
                     <img src="./images/mailchimp-4ct0iDMOjuc-unsplash.jpg" alt="">
                     <img src="./images/21stcentury.jpg" alt="">
@@ -97,7 +97,13 @@
     </section>
 
     <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navLinks = document.querySelector(".nav-links");
 
+        menuBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("mobile-menu")
+        })
+        console.log(2 + 2)
     </script>
 </body>
 
