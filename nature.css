@@ -311,7 +311,7 @@ p {
         min-width: 100vw;
         margin-right: 1rem;
         justify-content: center;
-        background-color: #73739b;
+        /* background-color: #73739b; */
     }
 
     .tours .image-gallery img{
