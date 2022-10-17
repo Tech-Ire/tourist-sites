@@ -80,12 +80,16 @@ img {
     height: 2rem;
 }
 
-.menu-btn {
+i{
     position: absolute;
     top: 30px;
     right: 30px;
     display: none;
 }
+
+ .navbar i{
+     font-size: 1.5rem;
+ }
 
 body,
 html {
